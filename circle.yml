@@ -1,0 +1,22 @@
+# Based off segment.io's script:
+# https://github.com/segmentio/eslint-config/blob/master/circle.yml
+
+machine:
+  node:
+    version: 6
+
+dependencies:
+  pre:
+    - npm config set "//registry.npmjs.org/:_authToken" $NPM_TOKEN
+
+test:
+  override:
+    - echo "No tests."
+
+deployment:
+  publish:
+    owner: oneflow
+    # Not a super sophisticated check, but it works with e.g. `1.0.0-alpha.1`
+    tag: /[0-9]+(\.[0-9]+)*(-.+)?/
+    commands:
+      - npm publish .

@@ -1,0 +1,30 @@
+{
+	"name": "eslint-config-oneflow",
+	"version": "1.0.0",
+	"description": "oneflow specific eslint rules",
+	"main": "index.js",
+	"scripts": {
+		"eslint": "eslint .",
+		"test": "npm run eslint"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oneflow/eslint-config-oneflow.git"
+	},
+	"keywords": [
+		"eslint"
+	],
+	"author": "OneFlow Systems Ltd",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/oneflow/eslint-config-oneflow/issues"
+	},
+	"homepage": "https://github.com/oneflow/eslint-config-oneflow#readme",
+	"dependencies": {
+		"eslint-config-airbnb-base": "11.0.1",
+		"eslint-plugin-import": "2.2.0"
+	},
+	"devDependencies": {
+		"eslint": "3.13.1"
+	}
+}
