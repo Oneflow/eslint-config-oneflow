@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-oneflow",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "oneflow specific eslint rules",
 	"main": "index.js",
 	"scripts": {
