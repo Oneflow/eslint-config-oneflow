@@ -19,6 +19,7 @@ workflows:
   publish:
     jobs:
       - publish:
+          context: oneflow
           filters:
             tags:
               # Not a super sophisticated check, but it works with e.g. `v1.0.0-alpha.1`
