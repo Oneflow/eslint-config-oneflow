@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-oneflow",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"description": "oneflow specific eslint rules",
 	"author": "OneFlow Systems Ltd",
 	"license": "ISC",
