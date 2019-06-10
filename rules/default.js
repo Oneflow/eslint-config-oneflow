@@ -7,7 +7,7 @@ module.exports = {
 	rules: {
 		'arrow-parens': [2, 'as-needed'],
 		'comma-dangle': [2, 'never'],
-		indent: [1, 'tab', { SwitchCase: 1 }],
+		'indent': [1, 'tab', { SwitchCase: 1 }],
 		'linebreak-style': 0,
 		'max-len': [1, 120],
 		'new-cap': [2, { capIsNewExceptions: ['Router', 'ObjectId'] }],
@@ -17,6 +17,7 @@ module.exports = {
 		'no-tabs': 0,
 		'object-curly-newline': 0,
 		'object-shorthand': ['error', 'always'],
-		'padded-blocks': 0
+		'padded-blocks': 0,
+		'quote-props': [2, 'consistent-as-needed']
 	}
 };
