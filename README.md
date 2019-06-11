@@ -1,5 +1,4 @@
 # eslint-config-oneflow
-
 This package provides oneflow's .eslintrc as an extensible shared config.
 
 ## Usage
