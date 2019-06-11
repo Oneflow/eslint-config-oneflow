@@ -19,3 +19,4 @@ To publish a new version of this repo simply push a new release tag to the maste
 git tag vX.Y.Z
 git push --tags
 ```
+Remember to manually bump the version in package.json and package-lock.json beforehand!
