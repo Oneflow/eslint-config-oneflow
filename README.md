@@ -11,3 +11,11 @@ Our default export contains all of our ESLint rules.
 
 1. `npm install --save-dev eslint-config-oneflow`
 2. add `"extends": "oneflow"` to your .eslintrc
+
+## Publishing
+
+To publish a new version of this repo simply push a new release tag to the master branch on github:
+```
+git tag vX.Y.Z
+git push --tags
+```
